@@ -4,8 +4,9 @@
         font-family: 'Baloo bhai',cursive;
         font-size: medium;
         color:white;
+        width: 100vw;
+        height: 100vh;
         background:url(../img/abs-1850926_1280.jpg);
-        margin:0px -300px 0px 0px;
         padding:0px;
     }
 
@@ -101,4 +102,18 @@
     .cointaner button{
         display: block;
         width:90px;
+    }
+
+    .about{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .about h3{
+        font-size: 40px;
     }
